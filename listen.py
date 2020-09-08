@@ -70,7 +70,7 @@ if __name__ == '__main__':
         while 1:
             transcribed_text = recognize_english(source)
             sentiment = analyze_text(transcribed_text, "en")
-            printz(f'Text is: {transcribed_text}')
+            print(f'Text is: {transcribed_text}')
             logger.info('Showing sentiment result >>>>>>')
             print(f'The sentiment result is: {sentiment}')
             '''
